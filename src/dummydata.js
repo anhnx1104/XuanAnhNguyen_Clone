@@ -20,26 +20,33 @@ export const mainSliderImgs = [
 
 export const bannerBottomAdvertise = [
   {
+    name: 'Điện thoại thông minh',
     imageUrl: 'banner-n1.jpg',
     link: '#',
   },
   {
+    name: 'Laptop gọn nhẹ',
+
     imageUrl: 'banner-n2.jpg',
     link: '#',
   },
   {
+    name: 'phụ kiện công nghệ',
     imageUrl: 'banner-n4.jpg',
     link: '#',
   },
   {
+    name: 'máy tính Hp siêu rẻ',
     imageUrl: 'banner-n5.jpg',
     link: '#',
   },
   {
+    name: 'MSI công nghệ cao',
     imageUrl: 'banner-n6.jpg',
     link: '#',
   },
   {
+    name: 'Máy tính Asus',
     imageUrl: 'banner-n7.jpg',
     link: '#',
   },
@@ -47,20 +54,24 @@ export const bannerBottomAdvertise = [
 
 export const shortBanner1 = [
   {
+    name: 'Phụ Kiện Hiện Đại Thông Minh',
     imageUrl: 'banner-n9.jpg',
-    link: '#',
+    link: 'https://vatdungthongminhlx.com/',
   },
   {
+    name: 'Phụ Kiện Hiện Đại Thông Minh',
     imageUrl: 'banner-n9.jpg',
-    link: '#',
+    link: 'https://vatdungthongminhlx.com/',
   },
   {
+    name: 'Phụ Kiện Hiện Đại Thông Minh',
     imageUrl: 'banner-n9.jpg',
-    link: '#',
+    link: 'https://vatdungthongminhlx.com/',
   },
   {
+    name: 'Phụ Kiện Hiện Đại Thông Minh',
     imageUrl: 'banner-n9.jpg',
-    link: '#',
+    link: 'https://vatdungthongminhlx.com/',
   },
 ];
 
@@ -68,7 +79,7 @@ export const shortBanner2 = [
   {
     imageUrl: 'banner-n1.jpg',
     link: '#',
-    name: 'MSI',
+    name: 'Công Nghệ Apple',
   },
   {
     imageUrl: 'banner-n2.jpg',
@@ -109,6 +120,7 @@ export const shortBanner2 = [
 
 export const shortBanner3 = [
   {
+    name: '',
     imageUrl: 'banner-n11.jpg',
     link: '#',
   },
@@ -147,26 +159,26 @@ export const generalBanner1 = [
       {
         thumb: '/access/products/dongho/dongho1.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Đồng Hồ',
+        subtitle: 'Đồng Hồ Thông Minh',
       },
       {
         thumb: '/access/products/giadung/giadung1.jpg',
         backgroundPosition: 'center 0px',
-        title: 'Ấm nước',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: ' Philips HD9745/90 2.2 lít.',
+        subtitle: 'đảm bảo sức khỏe cho gia đình.',
       },
       {
         thumb: '/access/products/giadung/giadung2.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Magic A-84. ',
+        subtitle: ' nấu chín nhanh hơn',
       },
       {
         thumb: '/access/products/giadung/giadung3.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Bluestone 5.5 lít AFB5871 ',
+        subtitle: 'Công nghệ Rapid Air độc đáo',
       },
     ],
   },
@@ -216,26 +228,26 @@ export const generalBanner2 = [
         thumb: '/access/products/giadung/giadung1.jpg',
 
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Làm việc chuẩn mực',
+        title: 'Nồi Chiên Không Dầu',
+        subtitle: 'Công nghệ Rapid Air độc đáo',
       },
       {
         thumb: '/access/products/dongho/dongho1.jpg',
         backgroundPosition: 'center 0px',
-        title: 'Ấm nước',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Đồng Hồ Điện Tử',
+        subtitle: 'Đồng hồ thông minh',
       },
       {
         thumb: '/access/products/giadung/giadung3.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Bluestone 5.5 lít AFB5871 ',
+        subtitle: 'Công nghệ Rapid Air độc đáo',
       },
       {
         thumb: '/access/products/giadung/giadung1.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'SHD4025B  3.0L Sunhouse ',
+        subtitle: 'Kiểu dáng sang trọng, hiện đại ',
       },
     ],
   },
@@ -254,19 +266,19 @@ export const generalBanner2 = [
         thumb: '/access/products/manhinh/screen2.jpg',
 
         backgroundPosition: 'center 0px',
-        title: 'Ấm nước',
-        subtitle: 'Sức mạnh từ nhà rồng',
+        title: 'Màn Hình siêu mỏng',
+        subtitle: 'Không gian sống động',
       },
       {
         thumb: '/access/products/dongho/dongho1.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
-        subtitle: 'Hẫn dẫn',
+        title: 'Đồng hồ',
+        subtitle: 'Đồng hồ thông minh',
       },
       {
         thumb: '/access/products/giadung/giadung4.jpg',
         backgroundPosition: 'center 0px',
-        title: 'MSI',
+        title: 'Nồi cơm điện đa năng',
         subtitle: 'Năng động và phong cách',
       },
     ],
@@ -275,22 +287,27 @@ export const generalBanner2 = [
 
 export const shortBanner4 = [
   {
+    name: 'Đồ dùng hiện đại cho các hộ gia đình',
     imageUrl: 'banner-n12.jpg',
     link: '#',
   },
   {
+    name: 'Đồ dùng hiện đại cho các hộ gia đình',
     imageUrl: 'banner-n13.jpg',
     link: '#',
   },
   {
+    name: 'Đồ dùng hiện đại cho các hộ gia đình',
     imageUrl: 'banner-n14.jpg',
     link: '#',
   },
   {
+    name: 'Đồ dùng hiện đại cho các hộ gia đình',
     imageUrl: 'banner-n14.jpg',
     link: '#',
   },
   {
+    name: 'Đồ dùng hiện đại cho các hộ gia đình',
     imageUrl: 'banner-n14.jpg',
     link: '#',
   },
@@ -300,7 +317,7 @@ export const promoteBanner = [
   {
     backgroundImage: '/access/products/manhinh/screen1.jpg',
     backgroundPosition: 'center -15px',
-    title: 'Laptop HP VICTUS 16-e0170AX 4R0U7PA router wifi 1',
+    title: 'TV LG OLED không chỉ biểu đạt được màu đen hoàn hảo',
     quantity: 1,
     promotePrice: 431000,
     originPrice: 450000,
@@ -308,7 +325,7 @@ export const promoteBanner = [
   {
     backgroundImage: '/access/products/manhinh/screen1.jpg',
     backgroundPosition: 'center -15px',
-    title: 'Laptop HP VICTUS 16-e0170AX 4R0U7PA router wifi 1',
+    title: 'TV LG OLED không chỉ biểu đạt được màu đen hoàn hảo',
     quantity: 1,
     promotePrice: 431000,
     originPrice: 450000,
@@ -415,7 +432,7 @@ export const productList = [
   {
     backgroundImage: '/access/products/manhinh/screen1.jpg',
     backgroundPosition: 'center -15px',
-    title: 'Laptop HP VICTUS 16-e0170AX 4R0U7PA router wifi 1',
+    title: 'Tivi LCD',
     quantity: 1,
     promotePrice: 431000,
     originPrice: 450000,

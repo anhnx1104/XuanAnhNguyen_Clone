@@ -9,37 +9,35 @@ import Container from 'layouts/container';
 import Grid from 'layouts/Grid';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import { StyledFullScreen, StyledAccountTitle } from 'styles/AccountPage'
-
+import { StyledFullScreen, StyledAccountTitle } from 'styles/AccountPage';
 
 const AccountOrder = () => {
   const router = useRouter();
   const [tab, setTab] = useState<string | string[]>('WAIT_PAYMENT');
 
   const handleChangeTab = (tab: string) => () => {
-    router.push(`/account/orders?tab=${tab}`)
-  }
+    router.push(`/account/orders?tab=${tab}`);
+  };
 
   useEffect(() => {
-    const tab = router.query.tab
+    const tab = router.query.tab;
     if (!tab) return;
 
     setTab(tab);
-  }, [router])
+  }, [router]);
 
   const renderTab = () => {
     switch (tab) {
-      case "WAIT_PAYMENT":
-        return <AccountOrderWaitingTab />
-      case "DONE":
-        return <AccountOrderDoneTab />
-      case "PROCESSING":
-        return <AccountOrderProgressTab />
+      case 'WAIT_PAYMENT':
+        return <AccountOrderWaitingTab />;
+      case 'DONE':
+        return <AccountOrderDoneTab />;
+      case 'PROCESSING':
+        return <AccountOrderProgressTab />;
       default:
-        return <span>tab is incorrect</span>
+        return <span>tab is incorrect</span>;
     }
-  }
-
+  };
 
   return (
     <StyledFullScreen>
@@ -51,24 +49,25 @@ const AccountOrder = () => {
               <AccountMenu />
             </Grid>
             <Grid item sx={9}>
-              <StyledAccountTitle >
-                <h5 className="title">
-                  Quản lý đơn hàng
-                </h5>
+              <StyledAccountTitle>
+                <h5 className="title">Quản lý đơn hàng</h5>
                 <div className="tabs">
                   <div
-                    className={tab === "WAIT_PAYMENT" ? "item item--active" : "item"}
-                    onClick={handleChangeTab("WAIT_PAYMENT")}>
+                    className={tab === 'WAIT_PAYMENT' ? 'item item--active' : 'item'}
+                    onClick={handleChangeTab('WAIT_PAYMENT')}
+                  >
                     Chờ thanh toán
                   </div>
                   <div
-                    className={tab === "PROCESSING" ? "item item--active" : "item"}
-                    onClick={handleChangeTab("PROCESSING")}>
+                    className={tab === 'PROCESSING' ? 'item item--active' : 'item'}
+                    onClick={handleChangeTab('PROCESSING')}
+                  >
                     Chờ giao hàng
                   </div>
                   <div
-                    className={tab === "DONE" ? "item item--active" : "item"}
-                    onClick={handleChangeTab("DONE")}>
+                    className={tab === 'DONE' ? 'item item--active' : 'item'}
+                    onClick={handleChangeTab('DONE')}
+                  >
                     Đã hoàn thành
                   </div>
                 </div>
@@ -81,10 +80,8 @@ const AccountOrder = () => {
           </Grid>
         </Section>
       </Container>
-    </StyledFullScreen >
+    </StyledFullScreen>
   );
 };
-
-
 
 export default AccountOrder;

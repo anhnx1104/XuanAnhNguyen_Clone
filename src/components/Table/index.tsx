@@ -1,7 +1,7 @@
-import { colors } from "@theme/colors"
-import { fontSizes } from "@theme/fontSizes"
-import { status } from "nprogress";
-import styled from "styled-components"
+import { colors } from '@theme/colors';
+import { fontSizes } from '@theme/fontSizes';
+import { status } from 'nprogress';
+import styled from 'styled-components';
 
 interface Order {
   code: string;
@@ -22,9 +22,9 @@ const Table = (props: Props) => {
     <>
       {orders.length > 0 ? (
         <StyledTable>
-          < StyledTable >
+          <StyledTable>
             <table cellSpacing="0" cellPadding="0" width="325">
-              <tbody >
+              <tbody>
                 <tr>
                   <th>Mã đơn hàng</th>
                   <th>Ngày mua</th>
@@ -37,38 +37,30 @@ const Table = (props: Props) => {
                     <td>{order.code}</td>
                     <td>{order.date}</td>
                     <td>
-                      <div className="name">
-                        {order.name}
-                      </div>
+                      <div className="name">{order.name}</div>
                     </td>
                     <td className="td-right">{order.totalPrice}</td>
                     <td className={`td-right ${order.status}`}>{order.status}</td>
                   </tr>
                 ))}
-
-
-
               </tbody>
             </table>
-          </StyledTable >
+          </StyledTable>
         </StyledTable>
       ) : (
         <StyledNoData>
           <div className="no-order">
             <img src="/access/popup/no-notify.png" alt="" className="no-order__img" />
-            <div className="no-order__text">
-              Bạn không có đơn hàng nào
-            </div>
+            <div className="no-order__text">Bạn không có đơn hàng nào</div>
           </div>
         </StyledNoData>
       )}
     </>
-  )
-
-}
+  );
+};
 
 const StyledTable = styled.div`
-table {
+  table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
@@ -95,11 +87,10 @@ table {
       max-width: 306px;
       display: -webkit-box;
       -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;  
+      -webkit-box-orient: vertical;
       overflow: hidden;
       line-height: 1.5;
     }
-  
 
     &.td-right {
       text-align: right;
@@ -119,13 +110,10 @@ table {
   }
 
   tr:nth-child(even) {
-    
   }
-`
+`;
 
 const StyledNoData = styled.div`
-
-
   & .no-order {
     display: flex;
     flex-direction: column;
@@ -142,9 +130,6 @@ const StyledNoData = styled.div`
       height: 150px;
     }
   }
-
- 
-`
-
+`;
 
 export default Table;
