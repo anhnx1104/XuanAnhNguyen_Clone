@@ -1,0 +1,38 @@
+{
+  "name": "phongvu-clone",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "^2.0.2",
+    "i18next": "^21.6.5",
+    "next": "12.0.4",
+    "nprogress": "^0.2.0",
+    "prettier": "^2.5.1",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.23.0",
+    "react-i18next": "^11.15.3",
+    "react-icons": "^4.3.1",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.10",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-slick": "^0.23.8",
+    "@types/styled-components": "^5.1.16",
+    "eslint": "7",
+    "eslint-config-next": "12.0.4",
+    "typescript": "4.5.2"
+  },
+  "pretty": "prettier --write \"./**/*.{js,jsx,json}\""
+}
