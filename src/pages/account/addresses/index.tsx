@@ -57,7 +57,7 @@ const AccountAddresses = () => {
               <Section>
                 <StyledMyAddress>
                   <div className="top">
-                    <div className="title">Trần Tuấn Dương</div>
+                    <div className="title">Nguyễn Xuân Anh</div>
                     <span className="label">MẶC ĐỊNH</span>
                   </div>
                   <div className="body">
