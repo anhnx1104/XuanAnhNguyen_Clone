@@ -32,7 +32,7 @@ const AccountInfo = () => {
                     </FormLabel>
                     <FormLabel>
                       <label>Email</label>
-                      <TextField type="text" disabled value="tranntuanduong@gmail.com" />
+                      <TextField type="text" disabled value="nguyenxuananh@gmail.com" />
                     </FormLabel>
                     <FormLabel>
                       <label htmlFor="phoneNumber">Số điện thoại</label>

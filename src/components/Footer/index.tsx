@@ -42,7 +42,7 @@ function Footer() {
             </ul>
           </StyledFooterColumn>
           <StyledFooterColumn>
-            <div className="title">Cộng đồng Phong Vũ</div>
+            <div className="title"> Cao đẳng bách khoa Hn</div>
             <ul className="list">
               <li className="row">Thẻ ưu đãi</li>
               <li className="row">Trung tâm bảo hành</li>
@@ -71,16 +71,16 @@ function Footer() {
               <li className="row">
                 <div className="link-wrap">
                   Hỗ trợ Khách hàng:
-                  <Link href="mailto:junjun@gmail.com">
-                    <a className="link">junjun@gmail.com</a>
+                  <Link href="mailto:NguyenXuanAnhK19-it03">
+                    <a className="link">NguyenXuanAnhK19-it03</a>
                   </Link>
                 </div>
               </li>
               <li className="row">
                 <div className="link-wrap">
                   Liên hệ báo giá:
-                  <Link href="mailto:junjun@gmail.com">
-                    <a className="link">baogiajun@gmail.com</a>
+                  <Link href="mailto:NguyenXuanAnhK19-it03">
+                    <a className="link">NguyenXuanAnh@gmail.com</a>
                   </Link>
                 </div>
               </li>
@@ -123,7 +123,7 @@ function Footer() {
       <StyledBottomFooter>
         <div className="wrap w-5">
           <StyledFooterColumn className="w-1-3">
-            <div className="title">CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ PHONG VŨ</div>
+            <div className="title">TRƯỜNG CAO ĐẲNG CÔNG NGHỆ BÁCH KHOA HÀ NỘI</div>
             <ul className="list">
               <li className="row">© 1997 - 2020 Công Ty Cổ Phần Thương Mại - Dịch Vụ Phong Vũ</li>
               <li className="row">
@@ -136,26 +136,22 @@ function Footer() {
             <div className="title">Liên hệ</div>
             <ul className="list">
               <li className="row column-direction column-start">
-                <div className="row-title">Địa chỉ trụ sở chính:</div>
-                Tầng 5, Số 117-119-121 Nguyễn Du, Phường Bến Thành, Quận 1, Thành Phố Hồ Chí Minh
+                <div className="row-title">Địa chỉ trụ sở chính Hải phòng:</div>
+                176 Quán Trữ - Kiến An - Hải... 176 Quán Trữ, Kiến An, Haiphong, Vietnam 100000.
               </li>
               <li className="row column-direction column-start">
-                <div className="row-title">Văn phòng điều hành miền Bắc:</div>
-                Tầng 6, Số 1 Phố Thái Hà, Phường Trung Liệt, Quận Đống Đa, Hà Nội
+                <div className="row-title">Văn phòng điều hành Thanh Trì:</div>
+                Trường Cao Đăng Công Nghệ Bách Khoa Hà Nội.
               </li>
               <li className="row column-direction column-start">
-                <div className="row-title">Văn phòng điều hành miền Nam:</div>
-                Tầng 11 Minh Long Tower, số 17 Bà Huyện Thanh Quan, Phường Võ Thị Sáu, Quận 3, TP.
-                Hồ Chí Minh
+                <div className="row-title">Văn phòng điều hành Hà Nội:</div>
+                Trường Cao Đăng Công Nghệ Bách Khoa Hà Nội.
               </li>
             </ul>
           </StyledFooterColumn>
         </div>
-
       </StyledBottomFooter>
-      <div className="version">
-        version: 2.1.0
-      </div>
+      <div className="version">version: 2.1.0</div>
     </StyledFooterWrap>
   );
 }
