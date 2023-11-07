@@ -204,13 +204,13 @@ function Header(props: Props) {
             >
               <div className="nav-item__wrap">
                 <BsPersonCircle className="nav-item__icon" />
-                <span className="nav-item__text">Trần Tuấn Dương</span>
+                <span className="nav-item__text">Nguyễn Xuân Anh</span>
               </div>
               {openUserActions && (
                 <StyledUserActions className={zoomOutHeader ? 'zoomout' : ''}>
                   <div className="top">
                     <BsPersonCircle className="top__icon" />
-                    <div className="top__title">Trần Tuấn Dương</div>
+                    <div className="top__title">Nguyễn Xuân Anh</div>
                   </div>
                   <ul className="detail-list">
                     <li className="detail-item" onClick={handleChangePid('account')}>

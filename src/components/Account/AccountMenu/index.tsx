@@ -11,39 +11,39 @@ const AccountMenu = () => {
   const [tabRouter, setTabRouter] = useState('');
 
   const accountMenu = useMemo(() => {
-    return [{
-      id: "account",
-      label: t('account-infomation'),
-      icon: <BsPersonCircle className="item__icon" />
-    },
-    {
-      id: "orders",
-      label: t('order-management'),
-      icon: <BsCalendar2Check className="item__icon" />
-    },
-    {
-      id: "addresses",
-      label: t('address-book'),
-      icon: <BsGeoAlt className="item__icon" />
-    },
-    {
-      id: "notification",
-      label: t('notification'),
-      icon: <BsBell className="item__icon" />
-    },]
-  }, [t])
-
+    return [
+      {
+        id: 'account',
+        label: t('account-infomation'),
+        icon: <BsPersonCircle className="item__icon" />,
+      },
+      {
+        id: 'orders',
+        label: t('order-management'),
+        icon: <BsCalendar2Check className="item__icon" />,
+      },
+      {
+        id: 'addresses',
+        label: t('address-book'),
+        icon: <BsGeoAlt className="item__icon" />,
+      },
+      {
+        id: 'notification',
+        label: t('notification'),
+        icon: <BsBell className="item__icon" />,
+      },
+    ];
+  }, [t]);
 
   const handleChangePid = (pid: string) => () => {
     changePid(pid, router);
   };
 
-
   useEffect(() => {
-    const pathArr = router.pathname.split("/");
+    const pathArr = router.pathname.split('/');
 
-    setTabRouter(pathArr[pathArr.length - 1])
-  }, [router])
+    setTabRouter(pathArr[pathArr.length - 1]);
+  }, [router]);
 
   return (
     <StyledAccountMenu>
@@ -52,11 +52,13 @@ const AccountMenu = () => {
           <BsPersonCircle className="avatar" />
           <div className="wrap">
             <div className="title">Tài khoản của bạn</div>
-            <div className="name">Duong Tran Tuan</div>
+            <div className="name">Xuan Anh Nguyen</div>
           </div>
         </StyledUser>
         {accountMenu.map((menu, index) => (
-          <li key={index} onClick={handleChangePid(menu.id)}
+          <li
+            key={index}
+            onClick={handleChangePid(menu.id)}
             className={tabRouter === menu.id ? 'item item--active' : 'item'}
           >
             {menu.icon}

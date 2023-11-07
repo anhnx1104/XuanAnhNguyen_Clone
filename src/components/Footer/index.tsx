@@ -72,7 +72,7 @@ function Footer() {
                 <div className="link-wrap">
                   Hỗ trợ Khách hàng:
                   <Link href="mailto:junjun@gmail.com">
-                    <a className="link">junjun@gmail.com</a>
+                    <a className="link">xuanAnhNguyen@gmail.com</a>
                   </Link>
                 </div>
               </li>
@@ -80,7 +80,7 @@ function Footer() {
                 <div className="link-wrap">
                   Liên hệ báo giá:
                   <Link href="mailto:junjun@gmail.com">
-                    <a className="link">baogiajun@gmail.com</a>
+                    <a className="link">xuanAnhNguyen@gmail.com</a>
                   </Link>
                 </div>
               </li>
@@ -151,11 +151,8 @@ function Footer() {
             </ul>
           </StyledFooterColumn>
         </div>
-
       </StyledBottomFooter>
-      <div className="version">
-        version: 2.1.0
-      </div>
+      <div className="version">version: 2.1.0</div>
     </StyledFooterWrap>
   );
 }

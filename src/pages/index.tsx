@@ -55,7 +55,7 @@ const Home: NextPage<Props> = () => {
 
   return (
     <>
-      <SEO title="Phong vũ clone| Trang chủ" description="Đây là desc của trang chủ" />
+      <SEO title="Xuan Anh Nguyen clone| Trang chủ" description="Đây là desc của trang chủ" />
       <DynamicMainSliderWithNoSSR />
       <DynamicContainerWithNoSSR>
         <Section>
