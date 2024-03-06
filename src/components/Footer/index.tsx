@@ -71,17 +71,13 @@ function Footer() {
               <li className="row">
                 <div className="link-wrap">
                   Hỗ trợ Khách hàng:
-                  <Link href="mailto:NguyenXuanAnhK19-it03">
-                    <a className="link">NguyenXuanAnhK19-it03</a>
-                  </Link>
+                  <Link href="mailto:NguyenXuanAnhK19-it03">NguyenXuanAnhK19-it03</Link>
                 </div>
               </li>
               <li className="row">
                 <div className="link-wrap">
                   Liên hệ báo giá:
-                  <Link href="mailto:NguyenXuanAnhK19-it03">
-                    <a className="link">NguyenXuanAnh@gmail.com</a>
-                  </Link>
+                  <Link href="mailto:NguyenXuanAnhK19-it03">NguyenXuanAnh@gmail.com</Link>
                 </div>
               </li>
               <li className="row">Trung tâm bảo hành</li>
@@ -125,7 +121,7 @@ function Footer() {
           <StyledFooterColumn className="w-1-3">
             <div className="title">TRƯỜNG CAO ĐẲNG CÔNG NGHỆ BÁCH KHOA HÀ NỘI</div>
             <ul className="list">
-              <li className="row">© 1997 - 2020 Công Ty Cổ Phần Thương Mại - Dịch Vụ Phong Vũ</li>
+              <li className="row">© 1997 - 2020 Công Ty Cổ Phần Thương Mại - Dịch Vụ Vtech</li>
               <li className="row">
                 Giấy chứng nhận đăng ký doanh nghiệp: 0304998358 do Sở KH-ĐT TP.HCM cấp lần đầu ngày
                 30 tháng 05 năm 2007

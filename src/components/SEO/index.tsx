@@ -19,12 +19,12 @@ const SEO = (props: SEOProps) => {
       <meta property="og:url" content="https://phongvu-clone.netlify.app/" /> */}
 
       <title>{title}</title>
-      <link rel="shortcut icon" href="/access/logo/short-logo.svg" />
+      <link rel="shortcut icon" href="/access/logo/logo.svg" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
       <meta name="description" content={description} />
 
-      <meta itemProp="name" content="Phong vũ clone | search" />
+      <meta itemProp="name" content="Vtech clone | search" />
       <meta itemProp="description" content={description} />
       <meta
         itemProp="image"
@@ -33,7 +33,7 @@ const SEO = (props: SEOProps) => {
 
       <meta property="og:url" content="https://phongvu-clone.netlify.app/search?query=keychorn" />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content="Phong vũ clone | search" />
+      <meta property="og:title" content="Vtech clone | search" />
       <meta property="og:description" content={description} />
       <meta
         property="og:image"
@@ -41,7 +41,7 @@ const SEO = (props: SEOProps) => {
       />
 
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Phong vũ clone | search" />
+      <meta name="twitter:title" content="Vtech clone | search" />
       <meta name="twitter:description" content={description} />
       <meta
         name="twitter:image"

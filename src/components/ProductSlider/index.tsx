@@ -26,10 +26,8 @@ const ProductSlider = () => {
       <div className="header">
         <div className="title">Cùng thương hiệu ASUS</div>
         <Link href="#">
-          <a className="link">
-            Xem tất cả
-            <BiChevronRight className="link-icon" />
-          </a>
+          Xem tất cả
+          <BiChevronRight className="link-icon" />
         </Link>
       </div>
       <ul className="list">

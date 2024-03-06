@@ -59,7 +59,7 @@ const Cart = () => {
                 <StyledTotalHeader>
                   <div className="seller">
                     <img src="/access/user/seller1.jpg" alt="" className="avatar" />
-                    <div className="name">Phong vũ</div>
+                    <div className="name">Vtech</div>
                     <div className="verify-icon">
                       <VerifyIcon />
                     </div>

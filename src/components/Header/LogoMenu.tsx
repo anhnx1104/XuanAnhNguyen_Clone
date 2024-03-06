@@ -18,9 +18,7 @@ const LogoMenu = () => {
   return (
     <StyledLogoMenu>
       <Link href="/">
-        <a className="logo">
-          <Image alt="" src="/access/logo/short-logo.svg" width={35} height={35} />
-        </a>
+        <Image alt="" src="/access/logo/logo.svg" width={35} height={35} />
       </Link>
       <div className="menu" onClick={openPortfolioIndustryHandler}>
         <BiMenu className="menu-icon" />

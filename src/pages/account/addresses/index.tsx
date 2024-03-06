@@ -37,7 +37,7 @@ const AccountAddresses = () => {
 
   return (
     <StyledFullScreen>
-      <SEO title="Phong vũ | Account" description="Đây là desc của trang chủ" />
+      <SEO title="Vtech | Account" description="Đây là desc của trang chủ" />
       <Container>
         <Section>
           <Grid container gap="16px">

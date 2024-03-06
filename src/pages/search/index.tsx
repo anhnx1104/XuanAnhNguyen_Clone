@@ -48,7 +48,7 @@ const SearchProducts = (props: Props) => {
 
   return (
     <>
-      <SEO title="Phong vũ clone | search" description="Bàn phím cơ keychorn" />
+      <SEO title="Vtech clone | search" description="Bàn phím cơ keychorn" />
       <DynamicContainerWithNoSSR mt="20px">
         <DynamicBreadCrumbWithNoSSR breadCrumbs={[]} current="Tìm kiếm" />
         <DynamicRelatedSearchWithNoSSR />

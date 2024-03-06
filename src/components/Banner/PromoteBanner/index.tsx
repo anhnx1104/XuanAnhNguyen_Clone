@@ -123,10 +123,8 @@ const PromoteBanner = () => {
       >
         <Countdown date={Date.now() + 500000000} renderer={renderer} />
         <Link href="#viewall">
-          <a className="view-all">
-            Xem tất cả
-            <BiChevronRight className="view-all__icon" />
-          </a>
+          Xem tất cả
+          <BiChevronRight className="view-all__icon" />
         </Link>
 
         <div className="product-list-wrap">

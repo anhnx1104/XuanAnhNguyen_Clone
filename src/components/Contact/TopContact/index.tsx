@@ -10,28 +10,22 @@ function TopContact() {
       <ul className="list">
         <li className="element">
           <Link href="https://phongvu.vn/contact">
-            <a className="element__link">
-              <BiBuildingHouse className="element__icon" />
-              <p>{t('showroom-system')}</p>
-            </a>
+            <BiBuildingHouse className="element__icon" />
+            <p>{t('showroom-system')}</p>
           </Link>
         </li>
         <li className="element">
           <Link href="tel:18006867">
-            <a className="element__link">
-              <BiBuildingHouse className="element__icon" />
-              <p>{t('shopping-advice')}</p>
-              <span>18006865</span>
-            </a>
+            <BiBuildingHouse className="element__icon" />
+            <p>{t('shopping-advice')}</p>
+            <span>18006865</span>
           </Link>
         </li>
         <li className="element">
           <Link href="tel:18006865">
-            <a className="element__link">
-              <BiBuildingHouse className="element__icon" />
-              <p>{t('customer-service')}</p>
-              <span>18006865</span>
-            </a>
+            <BiBuildingHouse className="element__icon" />
+            <p>{t('customer-service')}</p>
+            <span>18006865</span>
           </Link>
         </li>
         <li className="element">

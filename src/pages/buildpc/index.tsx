@@ -39,7 +39,7 @@ const BuildPC = () => {
   return (
     <Container>
       {openBuildPcDialog && <GlobalScrollStyle />}
-      <SEO title="Phong vũ clone | buildPC" description="Build PC" />
+      <SEO title="Vtech clone | buildPC" description="Build PC" />
       <Section>
         <DynamicBreadCrumbWithNoSSR breadCrumbs={[]} current="Build PC" />
       </Section>

@@ -135,9 +135,7 @@ function Header(props: Props) {
             <LogoMenu />
           ) : (
             <Link href="/">
-              <a className="logo">
-                <Image alt="" src="/access/logo/logo.svg" width={250} height={35} />
-              </a>
+              <Image alt="" src="/access/logo/logo.svg" width={200} height={50} />
             </Link>
           )}
 
@@ -184,10 +182,8 @@ function Header(props: Props) {
             <li className="nav-item">
               <div className="nav-item__wrap">
                 <Link href="#">
-                  <a className="nav-item__link">
-                    <BsTags className="nav-item__icon" />
-                    <span className="nav-item__text">Khuyến mãi</span>
-                  </a>
+                  <BsTags className="nav-item__icon" />
+                  <span className="nav-item__text">Khuyến mãi</span>
                 </Link>
               </div>
             </li>
@@ -301,12 +297,10 @@ function Header(props: Props) {
                       <img src="/access/products/dongho/dongho1.jpg" alt="" className="item__img" />
                       <div className="item__content">
                         <Link href="#">
-                          <a>
-                            <p className="item__content-title">
-                              Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
-                              đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
-                            </p>
-                          </a>
+                          <p className="item__content-title">
+                            Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
+                            đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
+                          </p>
                         </Link>
                         <div className="item__content-quantity">Số lượng 3</div>
                         <div className="item__content-price">3.690.000đ</div>
@@ -316,12 +310,10 @@ function Header(props: Props) {
                       <img src="/access/products/dongho/dongho1.jpg" alt="" className="item__img" />
                       <div className="item__content">
                         <Link href="#">
-                          <a>
-                            <p className="item__content-title">
-                              Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
-                              đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
-                            </p>
-                          </a>
+                          <p className="item__content-title">
+                            Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
+                            đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
+                          </p>
                         </Link>
                         <div className="item__content-quantity">Số lượng 3</div>
                         <div className="item__content-price">3.690.000đ</div>
@@ -331,12 +323,10 @@ function Header(props: Props) {
                       <img src="/access/products/dongho/dongho1.jpg" alt="" className="item__img" />
                       <div className="item__content">
                         <Link href="#">
-                          <a>
-                            <p className="item__content-title">
-                              Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
-                              đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
-                            </p>
-                          </a>
+                          <p className="item__content-title">
+                            Vòng đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT) Vòng
+                            đeo tay/ Đồng hồ thông minh Xiaomi Amazfit Pace (UYG4012RT)
+                          </p>
                         </Link>
                         <div className="item__content-quantity">Số lượng 3</div>
                         <div className="item__content-price">3.690.000đ</div>
@@ -346,9 +336,7 @@ function Header(props: Props) {
                       <img src="/access/products/dongho/dongho1.jpg" alt="" className="item__img" />
                       <div className="item__content">
                         <Link href="#">
-                          <a>
-                            <p className="item__content-title">Vòng đeo tay</p>
-                          </a>
+                          <p className="item__content-title">Vòng đeo tay</p>
                         </Link>
                         <div className="item__content-quantity">Số lượng 3</div>
                         <div className="item__content-price">3.690.000đ</div>
@@ -360,11 +348,9 @@ function Header(props: Props) {
                     <div className="count__price">5.899.000đ</div>
                   </div>
                   <Link href="/cart">
-                    <a>
-                      <Button size="large" margin="20px 0 0 0">
-                        Xem giỏ hàng
-                      </Button>
-                    </a>
+                    <Button size="large" margin="20px 0 0 0">
+                      Xem giỏ hàng
+                    </Button>
                   </Link>
                 </StyledCard>
               )}

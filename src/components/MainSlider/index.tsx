@@ -78,24 +78,18 @@ function MainSlider() {
             </ul>
           </div>
           <Link href="#campain">
-            <a>
-              <img
-                src={`/access/banner/${imageCollection[sliderIndex]}`}
-                alt=""
-                className="banner__img"
-              />
-            </a>
+            <img
+              src={`/access/banner/${imageCollection[sliderIndex]}`}
+              alt=""
+              className="banner__img"
+            />
           </Link>
           <StyledRightAdvertise>
             <Link href="#ad1">
-              <a className="ad-img-wrap">
-                <img src="/access/advertise/ad2.jpg" alt="" className="ad-img" />
-              </a>
+              <img src="/access/advertise/ad2.jpg" alt="" className="ad-img" />
             </Link>
             <Link href="#ad2">
-              <a className="ad-img-wrap">
-                <img src="/access/advertise/ad3.jpg" alt="" className="ad-img" />
-              </a>
+              <img src="/access/advertise/ad3.jpg" alt="" className="ad-img" />
             </Link>
           </StyledRightAdvertise>
         </div>

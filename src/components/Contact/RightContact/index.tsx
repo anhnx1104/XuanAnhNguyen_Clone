@@ -62,7 +62,7 @@ const RightContact = () => {
           <div className="tooltip">Like fanpage & trúng quà mini mỗi ngày</div>
         </div>
         <div className="messenger">
-          <a href="https://m.me/phongvuvietnam" target="_blank" rel="noreferrer">
+          <a href="https://www.messenger.com/t/100015644048696" target="_blank" rel="noreferrer">
             <img src="/access/contact/mes.png" alt="" className="contact-messenger" />
           </a>
         </div>

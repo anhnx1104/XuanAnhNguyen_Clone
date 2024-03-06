@@ -17,9 +17,7 @@ const PopupAdvertise = forwardRef<HTMLDivElement, Props>((props, ref) => {
     <Dialog>
       <StyledPopupAdvertise ref={ref}>
         <Link href="#popupAdvertise">
-          <a >
-            <img src="/access/popup/popup1.jpg" alt="" className="banner" />
-          </a>
+          <img src="/access/popup/popup1.jpg" alt="" className="banner" />
         </Link>
         <div className="close-btn" onClick={onClose}>
           <AiFillCloseCircle />

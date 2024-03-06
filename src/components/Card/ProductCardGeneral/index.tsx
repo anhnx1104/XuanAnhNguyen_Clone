@@ -1,5 +1,4 @@
-
-import { StyledProductCardGeneral } from './ProductCardGeneral'
+import { StyledProductCardGeneral } from './ProductCardGeneral';
 import Link from 'next/link';
 
 interface Props {
@@ -10,24 +9,23 @@ interface Props {
 }
 
 export const ProductCardGeneral = (props: Props) => {
-  const { backgroundImage, backgroundPosition, title, subtitle } = props
+  const { backgroundImage, backgroundPosition, title, subtitle } = props;
   return (
     <StyledProductCardGeneral>
       <Link href="#">
-        <a className="link">
-          <div className="title">{title}</div>
-          <div className="subtitle">{subtitle}</div>
-          <div className="thumb"
-            style={{
-              backgroundImage: `url(${backgroundImage})`,
+        <div className="title">{title}</div>
+        <div className="subtitle">{subtitle}</div>
+        <div
+          className="thumb"
+          style={{
+            backgroundImage: `url(${backgroundImage})`,
 
-              backgroundPosition: backgroundPosition
-            }} >
-          </div>
-        </a>
+            backgroundPosition: backgroundPosition,
+          }}
+        ></div>
       </Link>
     </StyledProductCardGeneral>
-  )
-}
+  );
+};
 
 export default ProductCardGeneral;

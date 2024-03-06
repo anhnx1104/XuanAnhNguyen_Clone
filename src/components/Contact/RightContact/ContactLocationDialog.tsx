@@ -12,50 +12,50 @@ import { IoClose } from 'react-icons/io5';
 
 const contactList = [
   {
-    name: 'Phong Vũ Trần Đại Nghĩa',
+    name: 'Vtech Trần Đại Nghĩa',
     location: '2A Trần Đại Nghĩa, Quận Hai Bà Trưng, Hà Nội',
     phone: '02473026867',
     mapSearch: 'Số 364 Đ. Ng. Gia Tự, P.Tiền An, Bắc Ninh, 220000',
   },
   {
-    name: 'Phong Vũ Long Bình',
+    name: 'Vtech Long Bình',
     location: '37 Bùi Văn Hòa, Khu phố 4, Phường Long Bình, TP Biên Hòa Đồng Nai',
     phone: '02473026867',
     mapSearch: 'Số 11 Đại lộ Lê Lợi, P. Điện Biên, Thành phố Thanh Hóa, Thanh Hoá 40000',
   },
 
   {
-    name: 'Phong vũ thái hà, Hà Nội',
+    name: 'Vtech thái hà, Hà Nội',
     location: 'Số 1 Thái Hà, Đống Đa, Hà Nội',
     phone: '02473026867',
     mapSearch: '393 Lương Ngọc Quyến, Hàng Văn Thụ0, Thành phố Thái Nguyên, Thái Nguyên',
   },
   {
-    name: 'Phong Vũ Nguyễn Văn Linh',
+    name: 'Vtech Nguyễn Văn Linh',
     location: '16 Nguyễn Văn Linh, Phường Nam Dương, Quận Hải Châu, Thành Phố Đà Nẵng',
     phone: '02473026867',
     mapSearch: 'Số 10 Đại lộ Lê Lợi, P. Điện Biên, Thành phố Thanh Hóa, Thanh Hoá 40000',
   },
   {
-    name: 'Phong vũ thái hà, Hà Nội 1',
+    name: 'Vtech thái hà, Hà Nội 1',
     location: 'Số 1 Thái Hà, Đống Đa, Hà Nội',
     phone: '02473026867',
     mapSearch: '1A P. Trần Đại Nghĩa, P, Hai Bà Trưng, Hà Nội 100000',
   },
   {
-    name: 'Phong Vũ Trần Đại Nghĩa 1',
+    name: 'Vtech Trần Đại Nghĩa 1',
     location: '2A Trần Đại Nghĩa, Quận Hai Bà Trưng, Hà Nội',
     phone: '02473026867',
     mapSearch: 'Số 363 Đ. Ng. Gia Tự, P.Tiền An, Bắc Ninh, 220000',
   },
   {
-    name: 'Phong vũ thái hà, Hà Nội 1',
+    name: 'Vtech thái hà, Hà Nội 1',
     location: 'Số 1 Thái Hà, Đống Đa, Hà Nội',
     phone: '02473026867',
     mapSearch: '391 Lương Ngọc Quyến, Hàng Văn Thụ0, Thành phố Thái Nguyên, Thái Nguyên',
   },
   {
-    name: 'Phong Vũ Nguyễn Văn Linh 1',
+    name: 'Vtech Nguyễn Văn Linh 1',
     location: '16 Nguyễn Văn Linh, Phường Nam Dương, Quận Hải Châu, Thành Phố Đà Nẵng',
     phone: '02473026867',
     mapSearch: 'Số 9 Đại lộ Lê Lợi, P. Điện Biên, Thành phố Thanh Hóa, Thanh Hoá 4000',

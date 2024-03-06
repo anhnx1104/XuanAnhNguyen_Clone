@@ -48,7 +48,7 @@ const ProductDescription = () => {
       <p>
         <b>
           Mua Card màn hình MSI GeForce RTX 3080 Ti VENTUS 3X 12G OC (912-V389-059) chính hãng/ Trả
-          góp 0% tại Phong Vũ
+          góp 0% tại Vtech
         </b>
       </p>
       <p>
@@ -57,10 +57,10 @@ const ProductDescription = () => {
         GeForce RTX 3080 Ti VENTUS 3X 12G OC (912-V389-059) là sự lựa chọn hợp lý nhất.
       </p>
       <p>
-        Sản phẩm chính hãng đã được<a href="#">Phong Vũ</a>bày bán tại các showroom của mình. Khi
-        mua hàng thanh toán qua VNPAY-QR, bạn sẽ mua sản phẩm với mức giá ưu đãi và còn được bảo
-        hành sản phẩm với thời gian lên đến 36 tháng. Ngoài ra, bạn sẽ được hỗ trợ trả góp với lãi
-        suất 0% và miễn phí giao hàng khi mua qua hình thức online.
+        Sản phẩm chính hãng đã được<a href="#">Vtech</a>bày bán tại các showroom của mình. Khi mua
+        hàng thanh toán qua VNPAY-QR, bạn sẽ mua sản phẩm với mức giá ưu đãi và còn được bảo hành
+        sản phẩm với thời gian lên đến 36 tháng. Ngoài ra, bạn sẽ được hỗ trợ trả góp với lãi suất
+        0% và miễn phí giao hàng khi mua qua hình thức online.
       </p>
     </StyledProductDesc>
   );

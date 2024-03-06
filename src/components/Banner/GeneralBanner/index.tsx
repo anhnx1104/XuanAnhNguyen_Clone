@@ -1,15 +1,13 @@
-
 import ProductCardGeneral from '@components/Card/ProductCardGeneral';
 import Link from 'next/link';
 import { BiChevronRight } from 'react-icons/bi';
 import { StyledGeneralBanner, StyledGeneralBannerWrap } from './GeneralBanner';
 
-
 interface Product {
   thumb: string;
   backgroundPosition: string;
   title: string;
-  subtitle: string
+  subtitle: string;
 }
 
 interface GeneralBanner {
@@ -20,11 +18,11 @@ interface GeneralBanner {
 }
 
 interface Props {
-  generalBanners: GeneralBanner[]
+  generalBanners: GeneralBanner[];
 }
 
 const GeneralBanner = (props: Props) => {
-  const { generalBanners } = props
+  const { generalBanners } = props;
   return (
     <StyledGeneralBannerWrap>
       {generalBanners.map((item, index) => (
@@ -32,21 +30,14 @@ const GeneralBanner = (props: Props) => {
           <div className="general-top">
             <h3 className="general-top__title">{item.title}</h3>
             <Link href={item.link}>
-              <a className="general-top__link">
-                Xem tất cả
-                <BiChevronRight className="general-top__icon" />
-              </a>
+              Xem tất cả
+              <BiChevronRight className="general-top__icon" />
             </Link>
           </div>
           <div className="general-content">
             <div className="content-left">
               <Link href="#">
-                <a >
-                  <img
-                    src={item.advertise}
-                    alt=""
-                    className="content-left__img" />
-                </a>
+                <img src={item.advertise} alt="" className="content-left__img" />
               </Link>
             </div>
             <div className="content-right">
@@ -64,7 +55,7 @@ const GeneralBanner = (props: Props) => {
         </StyledGeneralBanner>
       ))}
     </StyledGeneralBannerWrap>
-  )
-}
+  );
+};
 
-export default GeneralBanner
+export default GeneralBanner;

@@ -38,10 +38,7 @@ const ProductDetails = () => {
 
   return (
     <>
-      <SEO
-        title="Phong vũ clone | details"
-        description="Card màn hình VGA MSI RTX 3080 Ti ventus"
-      />
+      <SEO title="Vtech clone | details" description="Card màn hình VGA MSI RTX 3080 Ti ventus" />
       <Container mt="20px">
         <DynamicBreadCrumbWithNoSSR breadCrumbs={breadCrumbs} current="GTX 3080" />
         <Section>
